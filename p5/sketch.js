@@ -1,4 +1,6 @@
-// const serial = new p5.WebSerial();
+const serial = new p5.WebSerial(); // set up serial constant
+let portButton; // variable for port button
+let inData; // variable to hold data
 
 function setup() {
   createCanvas(400, 400);
